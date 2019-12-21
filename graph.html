@@ -1,0 +1,76 @@
+<style>
+	.chart-section {
+		padding: 20px;
+	}
+	.chart-section, .chart-section * {
+		-webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+	.chart-section:after { 
+		content: '';
+		display: table;
+		clear: both;
+	 }	
+	 .chart-leftbox {
+	 	float: left;
+	 	width: 150px;
+	 	color: #222;
+	 	margin-top: 30px;
+	 }
+	 .chart-infobox img {
+	 	max-width: 100%;
+	 	width: auto;
+	 	height: auto;
+	 	margin-bottom: 10px;
+	 }
+	 .chart-infobox {
+	 	margin-top: 30px;
+	 }
+	 .chart-infobox h4 {
+	 	margin: 0 0 10px;
+	 	font-size: 20px;
+	 }
+	 .chart-infobox h5 {
+	 	margin: 0 0 5px;
+	 	font-size: 15px;
+	 }
+	 .chart-rightbox {
+	 	overflow: hidden;
+	 	padding-left: 100px;
+	 }
+	 .graph-heading {
+	 	text-align: center;
+	 }
+	 
+	 .chart-leftbox span {
+	 	font-size: 14px;
+	 	display: block;
+	 }
+	 .graph-heading {
+	 	text-align: center;
+	 	margin-bottom: 20px;
+	 	font-size: 24px;
+	 }
+</style>
+
+<div class="chart-section">
+	<div class="chart-leftbox">
+		<div class="chart-infobox">	
+			<h4>Sponge</h4>
+			<img src="https://dummyimage.com/150x150/000/fff.jpg" alt="">
+			<h5>Hospital name</h5>
+			<span>Time Stamp</span>
+		</div><!-- .chart-infobox -->
+		<div class="chart-infobox">	
+			<h4>Canister</h4>
+			<img src="https://dummyimage.com/150x150/000/fff.jpg" alt="">
+			<h5>Hospital name</h5>
+			<span>Time Stamp</span>
+		</div><!-- .chart-infobox -->
+	</div><!-- /.chart-leftbox -->
+
+	<div class="chart-rightbox">
+		<div class="graph-heading">Most Active Procedures</div><div id="chart"></div>
+	</div><!-- /.chart-rightbox -->
+</div><!-- /.chart-section -->
